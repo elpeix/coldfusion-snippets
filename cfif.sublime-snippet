@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[<cfif $1> 
+  $2
+<cfelse>
+  $3
+</cfif>]]></content>
+  <tabTrigger>cfm-cfif</tabTrigger>
+  <description>CFM - cfif</description>
+  <scope>text.html</scope>
+</snippet>
