@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<cfprocessingdirective pageencoding="4{1:utf-8}" />]]></content>
+  <tabTrigger>cfm-cfprocessingdirective</tabTrigger>
+  <description>CFM - cfprocessingdirective</description>
+  <scope>text.html</scope>
+</snippet>
