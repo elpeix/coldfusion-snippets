@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<cfqueryparam cfsqltype="$1" value="#$2#" />]]></content>
+  <tabTrigger>cfm-cfqueryParam</tabTrigger>
+  <description>CFM - cfqueryParam</description>
+  <scope>text.html</scope>
+</snippet>
