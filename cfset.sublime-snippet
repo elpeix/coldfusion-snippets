@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<cfset $1 = $2 />]]></content>
+  <tabTrigger>cfm-cfset</tabTrigger>
+  <description>CFM - cfset</description>
+  <scope>text.html</scope>
+</snippet>
