@@ -3,7 +3,7 @@ coldfusion-snippets
 
 Coldfusion snippets for Sublime Text
 
-*NOT COMPLETED*
+/!\ *NOT COMPLETED*
 
 Type the snippet shortcode and then press <kbd>Tab</kbd> to complete the snippet.
 
