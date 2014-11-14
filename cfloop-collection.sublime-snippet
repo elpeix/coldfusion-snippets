@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<cfloop collection="#$1#" item="$2">
+    $3
+</cfloop>]]></content>
+  <tabTrigger>cfm-cfloop-collection</tabTrigger>
+  <description>CFM - cfloop-collection</description>
+  <scope>text.html</scope>
+</snippet>
