@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[<cfsavecontent variable="$1">
+  <cfoutput>
+    $2
+  </cfoutput>
+</cfsavecontent>]]></content>
+  <tabTrigger>cfm-cfsavecontent</tabTrigger>
+  <description>CFM - cfsavecontent</description>
+  <scope>text.html</scope>
+</snippet>
