@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<cfloop condition = "$1"> 
+  $2
+</cfloop>]]></content>
+  <tabTrigger>cfm-cfloop-condition</tabTrigger>
+  <description>CFM - cfloop-condition</description>
+  <scope>text.html</scope>
+</snippet>
