@@ -1,0 +1,43 @@
+<snippet>
+  <content><![CDATA[<cfcomponent displayname="Application" output="${1:no}" hint="Handle the application.">
+  
+  $2
+
+  <cffunction name="OnApplicationStart" access="public" returntype="boolean" output="${3:no}" hint="Fires when the application is first created.">
+    $4
+  </cffunction>
+
+
+  <cffunction name="OnSessionStart" access="public" returntype="void" output="${5:no}" hint="Fires when the session is first created.">
+    ${6:no}
+  </cffunction>
+
+
+  <cffunction name="OnRequestStart" access="public" returntype="boolean" output="${7:no}" hint="Fires when prior to page processing.">
+    ${8:no}
+  </cffunction>
+
+
+  <cffunction name="OnRequest" access="public" returntype="void" output="${9:no}" hint="Fires after pre page processing is complete.">
+    ${10:no}
+  </cffunction>
+
+
+  <cffunction name="OnRequestEnd" access="public" returntype="void" output="${11:no}" hint="Fires after the page processing is complete.">
+    ${12:no}
+  </cffunction>
+
+
+  <cffunction name="OnApplicationEnd" access="public" returntype="void" output="${13:no}" hint="Fires when the application is terminated.">
+    ${14:no}
+  </cffunction>
+
+
+  <cffunction name="onError" access="public" returntype="void" output="${15:no}">
+    ${16:no}
+  </cffunction>
+</cfcomponent>]]></content>
+  <tabTrigger>cfm-cfapplication</tabTrigger>
+  <description>CFM - cfapplication</description>
+  <scope>text.html</scope>
+</snippet>
