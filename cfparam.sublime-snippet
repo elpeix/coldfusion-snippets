@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<cfparam name="$1" type="$2" default="$3" />]]></content>
+  <tabTrigger>cfm-cfparam</tabTrigger>
+  <description>CFM - cfparam</description>
+  <scope>text.html</scope>
+</snippet>
