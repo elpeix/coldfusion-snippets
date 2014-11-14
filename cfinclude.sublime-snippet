@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<cfinclude template="$1" />]]></content>
+  <tabTrigger>cfm-cfinclude</tabTrigger>
+  <description>CFM - cfinclude</description>
+  <scope>text.html</scope>
+</snippet>
