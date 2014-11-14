@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[<cftransaction action="begin">
+  $1
+  <cftransaction action="commit" />
+</cftransaction>]]></content>
+  <tabTrigger>cfm-cftransaction</tabTrigger>
+  <description>CFM - cftransaction</description>
+  <scope>text.html</scope>
+</snippet>
