@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[<cfcomponent output="${1:no}">
+  <cfproperty name="$2" type="$3" required="${4:yes}" default="$5" />
+  
+  <cffunction name="${6:init}" access="${7:public}" output="${8:yes}" returntype="$9" hint="$10">
+    <cfargument name="$11" type="$12" required="${13:yes}" default="$14" hint="$15" />
+    
+    $16
+  </cffunction>
+</cfcomponent>]]></content>
+  <tabTrigger>cfm-cfcomponent</tabTrigger>
+  <description>CFM - cfcomponent</description>
+  <scope>text.html</scope>
+</snippet>
