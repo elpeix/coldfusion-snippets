@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[<cftry>
+  $1
+
+  <cfcatch type="$2">
+    $3
+  </cfcatch>
+</cftry>]]></content>
+  <tabTrigger>cfm-cftry</tabTrigger>
+  <description>CFM - cftry-cfcatch</description>
+  <scope>text.html</scope>
+</snippet>
