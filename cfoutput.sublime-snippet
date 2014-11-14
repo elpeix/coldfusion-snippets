@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<cfoutput>
+$2
+</cfoutput>]]></content>
+  <tabTrigger>cfm-cfoutput</tabTrigger>
+  <description>CFM - cfoutput</description>
+  <scope>text.html</scope>
+</snippet>
