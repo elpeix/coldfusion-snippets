@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[<cffunction name="$1" access="$2" output="${3:yes}" returntype="$4" hint="$5">
+  <cfargument name="$6" type="$7" required="${8:yes}" default="$9" hint="$10" />
+  $11
+</cffunction>]]></content>
+  <tabTrigger>cfm-cffunction</tabTrigger>
+  <description>CFM - cffunction</description>
+  <scope>text.html</scope>
+</snippet>
