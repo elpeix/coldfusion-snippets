@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<cfsetting enablecfoutputonly="${1:yes}" />]]></content>
+  <tabTrigger>cfm-cfsetting</tabTrigger>
+  <description>CFM - cfsetting</description>
+  <scope>text.html</scope>
+</snippet>
