@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[<cfquery name="$1" datasource="#$2#" username="#$3#" password="#$4#">
+  $5
+</cfquery>]]></content>
+  <tabTrigger>cfm-cfquery</tabTrigger>
+  <description>CFM - cfquery</description>
+  <scope>text.html</scope>
+</snippet>
