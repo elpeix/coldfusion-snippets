@@ -72,9 +72,9 @@ __cfcomponent__
 
 __cfdump__
 
-´´´html
+```html
 <cfdump var=#$1# label="$2" />
-´´´
+```
 
 __cfbump-abort__
 
