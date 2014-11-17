@@ -1,14 +1,9 @@
-coldfusion-snippets
-===================
-
-Coldfusion snippets for Sublime Text
-
-/!\ *NOT COMPLETED*
+# Sublime Text Coldfusion Snippets
 
 Type the snippet shortcode and then press <kbd>Tab</kbd> to complete the snippet.
 
 ---
-__cfapplication__
+__cfm-cfapplication__
 ```html
 <cfcomponent displayname="Application" output="${1:no}" hint="Handle the application.">
   
@@ -50,13 +45,13 @@ __cfapplication__
 </cfcomponent>
 ```
 
-__cfargument__
+__cfm-cfargument__
 
 ```html
 <cfargument name="$1" type="$2" required="$3" default="$4" hint="$5" />
 ```
 
-__cfcomponent__
+__cfm-cfcomponent__
 
 ```html
 <cfcomponent output="${1:no}">
@@ -70,19 +65,19 @@ __cfcomponent__
 </cfcomponent>
 ```
 
-__cfdump__
+__cfm-cfdump__
 
 ```html
 <cfdump var=#$1# label="$2" />
 ```
 
-__cfbump-abort__
+__cfm-cfbump-abort__
 
 ```html
 <cfdump var=#$1# label="$2" /><abort />
 ```
 
-__cffunction__
+__cfm-cffunction__
 
 ```html
 <cffunction name="$1" access="$2" output="${3:yes}" returntype="$4" hint="$5">
@@ -91,7 +86,7 @@ __cffunction__
 </cffunction>
 ```
 
-__cfif__
+__cfm-cfif__
 
 ```html
 <cfif $1> 
@@ -101,7 +96,7 @@ __cfif__
 </cfif>
 ```
 
-__cfif-elseif__
+__cfm-cfif-elseif__
 
 ```html
 <cfif $1> 
@@ -113,13 +108,13 @@ __cfif-elseif__
 </cfif>
 ```
 
-__cfinclude__
+__cfm-cfinclude__
 
 ```html
 <cfinclude template="$1" />
 ```
 
-__cfloop-array__
+__cfm-cfloop-array__
 
 ```html
 <cfloop array="#$1#" index="$2">
@@ -127,7 +122,7 @@ __cfloop-array__
 </cfloop>
 ```
 
-__cfloop-collection__
+__cfm-cfloop-collection__
 
 ```html
 <cfloop collection="#$1#" item="$2">
@@ -135,7 +130,7 @@ __cfloop-collection__
 </cfloop>
 ```
 
-__cfloop-collection__
+__cfm-cfloop-collection__
 
 ```html
 <cfloop condition = "$1"> 
@@ -143,7 +138,7 @@ __cfloop-collection__
 </cfloop>
 ```
 
-__cfloop-condition__
+__cfm-cfloop-condition__
 
 ```html
 <cfloop condition = "$1"> 
@@ -151,7 +146,7 @@ __cfloop-condition__
 </cfloop>
 ```
 
-__cfloop-index__
+__cfm-cfloop-index__
 
 ```html
 <cfloop index="$1" from="$2" to="$3" step="$4"> 
@@ -159,7 +154,7 @@ __cfloop-index__
 </cfloop>
 ```
 
-__cfloop-query__
+__cfm-cfloop-query__
 
 ```html
 <cfloop query="$1">
@@ -167,19 +162,19 @@ __cfloop-query__
 </cfloop>
 ```
 
-__cfparam__
+__cfm-cfparam__
 
 ```html
 <cfreturn $1 />
 ```
 
-__cfprocessingdirective__
+__cfm-cfprocessingdirective__
 
 ```html
 <cfprocessingdirective pageencoding="4{1:utf-8}" />
 ```
 
-__cfquery__
+__cfm-cfquery__
 
 ```html
 <cfquery name="$1" datasource="#$2#" username="#$3#" password="#$4#">
@@ -187,20 +182,20 @@ __cfquery__
 </cfquery>
 ```
 
-__cfqueryparam__
+__cfm-cfqueryparam__
 
 ```html
 <cfqueryparam cfsqltype="$1" value="#$2#" />
 
 ```
 
-__cfreturn__
+__cfm-cfreturn__
 
 ```html
 <cfreturn $1 />
 ```
 
-__cfsavecontent__
+__cfm-cfsavecontent__
 
 ```html
 <cfsavecontent variable="$1">
@@ -210,19 +205,19 @@ __cfsavecontent__
 </cfsavecontent>
 ```
 
-__cfset__
+__cfm-cfset__
 
 ```html
 <cfset $1 = $2 />
 ```
 
-__cfsetting__
+__cfm-cfsetting__
 
 ```html
 <cfsetting enablecfoutputonly="${1:yes}" />
 ```
 
-__cfswitch__
+__cfm-cfswitch__
 
 ```html
 <cfswitch expression="#$1#">
@@ -237,7 +232,7 @@ __cfswitch__
 </cfswitch>
 ```
 
-__cftransation__
+__cfm-cftransation__
 
 ```html
 <cftransaction action="begin">
@@ -247,7 +242,7 @@ __cftransation__
 ```
 
 
-__cftry__
+__cfm-cftry__
 
 ```html
 <cftry>
@@ -259,7 +254,7 @@ __cftry__
 </cftry>
 ```
 
-__newObject__
+__cfm-newObject__
 
 ```html
 <cfset ${1:object} = new ${2:Component}(${3:initParams}) />
