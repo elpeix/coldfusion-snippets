@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<cfdump var=#$1# label="$2" /><abort />]]></content>
+  <tabTrigger>cfm-cfdump-abort</tabTrigger>
+  <description>CFM - cfdump-abort</description>
+  <scope>text.html</scope>
+</snippet>
