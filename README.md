@@ -80,7 +80,7 @@ __cfbump-abort__
 
 ```html
 <cfdump var=#$1# label="$2" /><abort />
-´´´
+```
 
 __cffunction__
 
