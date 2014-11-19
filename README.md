@@ -223,11 +223,9 @@ __cfm-cfswitch__
 <cfswitch expression="#$1#">
   <cfcase value="$2">
     $3
-    <cfbreak />
   </cfcase>
   <cfdefaultcase>
     $4
-    <cfbreak />
   </cfdefaultcase>
 </cfswitch>
 ```
