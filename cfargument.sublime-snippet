@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[<cfargument name="$1" type="$2" required="$3" default="$4" hint="$5" />]]></content>
-  <tabTrigger>cfm-cfargument</tabTrigger>
+  <tabTrigger>c-cfargument</tabTrigger>
   <description>CFM - cfargument</description>
   <scope>text.html</scope>
 </snippet>
