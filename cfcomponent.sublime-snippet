@@ -8,7 +8,7 @@
     $16
   </cffunction>
 </cfcomponent>]]></content>
-  <tabTrigger>cfm-cfcomponent</tabTrigger>
+  <tabTrigger>c-cfcomponent</tabTrigger>
   <description>CFM - cfcomponent</description>
   <scope>text.html</scope>
 </snippet>
