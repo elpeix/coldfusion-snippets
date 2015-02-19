@@ -2,7 +2,7 @@
   <content><![CDATA[<cfcase value="$1">
   $2
 </cfcase>]]></content>
-  <tabTrigger>cfm-cfcase</tabTrigger>
+  <tabTrigger>c-cfcase</tabTrigger>
   <description>CFM - cfcase</description>
   <scope>text.html</scope>
 </snippet>
