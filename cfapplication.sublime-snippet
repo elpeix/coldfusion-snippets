@@ -37,7 +37,7 @@
     ${16:no}
   </cffunction>
 </cfcomponent>]]></content>
-  <tabTrigger>cfm-cfapplication</tabTrigger>
+  <tabTrigger>c-cfapplication</tabTrigger>
   <description>CFM - cfapplication</description>
   <scope>text.html</scope>
 </snippet>
