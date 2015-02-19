@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[<cfset ${1:obj} = createObject("${2:component}", "$3").init($4) />]]></content>
+  <tabTrigger>c-createObject</tabTrigger>
+  <description>CFM - Create object</description>
+  <scope>text.html</scope>
+</snippet>
