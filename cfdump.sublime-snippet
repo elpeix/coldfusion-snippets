@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[<cfdump var=#$1# label="$2" />]]></content>
-  <tabTrigger>cfm-cfdump</tabTrigger>
+  <tabTrigger>c-cfdump</tabTrigger>
   <description>CFM - cfdump</description>
   <scope>text.html</scope>
 </snippet>
